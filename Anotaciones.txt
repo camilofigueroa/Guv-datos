@@ -1,0 +1,56 @@
+
+
+
+Sacarlos de:
+https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Ficfesgovco-my.sharepoint.com%2F%3Af%3A%2Fg%2Fpersonal%2Fdataicfes_icfes_gov_co%2FEkLXei-dqdlFuRb9hlf1b8IBhZHmwkhRJtY3wNNjttNCoA%3Fe%3D9PROAP%26CT%3D1589296771489%26OR%3DOWA-NT%26CID%3D5cc96871-447f-0e87-9de5-3893e123b5ba&data=05%7C01%7Cefigueroa%40sena.edu.co%7C02b718f581c64f7d439e08da86b47b0a%7Ccbc2c3812f2e4d9391d1506c9316ace7%7C0%7C0%7C637970406965004996%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=Dx7NUKTrrfKwAro1ttsml2esrz58jw%2B%2BwPR8A64H5p4%3D&reserved=0
+
+Icfes2020*
+
+
+Jhonygonsalez7@gmail.com
+
+
+Adónde ponerlos.
+
+https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsena4.sharepoint.com%2Fsites%2FTecnlogoGestinCalidad-Guaviare%2FREPORTES_PRUEBAS_TT_ICFES%3Fe%3D2%253aTUWr5e%26at%3D9&data=05%7C01%7Cefigueroa%40sena.edu.co%7C39620a95fa9a411be86408db137d80d6%7Ccbc2c3812f2e4d9391d1506c9316ace7%7C0%7C0%7C638125201968531576%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=nteTTTFYabtkYqGBlEj9dpAWASI6GiMuxQlbR8MwtzM%3D&reserved=0
+
+
+Paso 1: Para importar a Excel. Hay que cambiar la extensión del txt a CSV. En el Mac hay que seleccionar en el paso 1, delimitados, Origen del archivo: Unicode (UTF-8)
+        Para la importación hay que importar el CSV desde la pestaña Datos, y ver el archivo Importación02.JPG seguido del botón cargar y esperar un poco.
+        Quitar múltiples hojas.
+Paso 2: Guardar como csv UTF-8 delimitado por comas.
+Paso 2: en la importación, hay que usar como separador de columnas el ; y no la coma, sugerida por el MySQL. Y click en la primera tabla contiene el nombre d elas columnas.
+Paso 4: usar DBeaver para la importación.
+Paso 5: ojo, la primera fila desborda en fechas pues confunde títulos con datos.
+Paso 6: en l importación con DBeaver hay que colocar mínimum columna  150, con 50 no basta.
+Paso 7: se crea en la tabla usando los campos del Excel. Con Chat GPT.
+
+¬
+
+
+Error de importación: https://stackoverflow.com/questions/50690076/phpmyadmin-error-incorrect-format-parameter
+
+20220220 ---------- se movieron los parámetros del php.ini del xampp equipo todo en uno  ------------------------------
+El php.ini del MAc está en la carpeta del xampp "etc"
+
+max_execution_time=2000000
+max_input_time=1200000
+memory_limit = 2048M
+post_max_size = 1500M
+upload_max_filesize = 1500M 
+
+
+___________________________________________________
+
+Manual de Power Query M
+https://learn.microsoft.com/es-es/power-query/power-query-ui
+
+
+Las columnas desde el 20182 son diferentes de ahí en adelante.
+
+
+Prompt chatgp creacion de tabula.
+
+Creame un script créate table para una tabla llamada sabertyt_genericas_20221 en mysql con los siguientes campos varchar de 150 en tamaño, los listo:
+
+
